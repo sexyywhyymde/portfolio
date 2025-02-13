@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #1e90ff;
+  color: #67ceed;
 }
 
 button {
@@ -58,4 +58,49 @@ section {
 
 .skills {
   font-weight: 700;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+}
+
+.project {
+  background-color: rgb(4, 44, 61);
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.project h3 {
+  margin-top: 1rem;
+  font-size: 25px;
+}
+
+.project p {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #f0f2f5;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
+}
+
+.project a:hover {
+  color: #67ceed;
+  transition: 1s;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.project .links {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
 }
