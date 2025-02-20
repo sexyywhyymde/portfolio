@@ -13,6 +13,10 @@ body {
   background-color: #f0f2f5;
 }
 
+section{
+  height: 100vh;
+}
+
 /* Стили для хедера */
 header {
   background-color: #1b263b;
