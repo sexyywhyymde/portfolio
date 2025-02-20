@@ -7,13 +7,20 @@
   </head>
   <body>
     <header>
-      <h1>Portfolio</h1>
       <nav>
         <ul>
-          <li><a href="#about">about</a></li>
-          <li><a href="#projects">Project</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li>
+            <a href="#about"> <small>About</small></a>
+          </li>
+          <li>
+            <a href="#projects"> <small>Project</small></a>
+          </li>
+          <li>
+            <a href="#skills"> <small>Skills</small></a>
+          </li>
+          <li>
+            <a href="#contact"> <small>Contact</small></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -22,16 +29,18 @@
       <!-- Про меня -->
       <section id="about">
         <h2>About me</h2>
-        <img src="img/ava.jpg" alt="profile" height="200" />
-        <p>
-          I am sexyywhyymde, a <strong>beginner web developer</strong> with a
-          passion for creating stunning, responsive websites. I am currently
-          building my expertise in <span class="skills">HTMl</span>,
-          <span class="skills">CSS</span> and
-          <span class="skills">JavaScript</span>. I am dedicated to enhancing my
-          skills and staying updated with the latest trends in web development
-        </p>
-        <button>Скачать резюме</button>
+        <div class="wrapper_about">
+          <img src="img/ava.jpg" alt="profile"  />
+          <p>
+            I am sexyywhyymde, a <strong>beginner web developer</strong> with a
+            passion for creating stunning, responsive websites. I am currently
+            building my expertise in <span class="skills">HTMl</span>,
+            <span class="skills">CSS</span> and
+            <span class="skills">JavaScript</span> I am dedicated to enhancing
+            my skills and staying updated brwith the latest trends in web
+            development
+          </p>
+        </div>
       </section>
       <!-- Проекты -->
       <section class="section" id="projects">
@@ -39,8 +48,10 @@
         <!--Первый проект-->
         <div class="project">
           <img src="img/project1.png" alt="project1" />
-          <h3>GuessGame:</h3>
-          <p>Try to Guess the number from 1 to 100</p>
+          <h3 style="color: white">GuessGame:</h3>
+          <p style="font-family: sans-serif">
+            Try to Guess the number from 1 to 100
+          </p>
           <div class="links">
             <a target="_blank" href="https://sexyywhyymde.github.io/guess-game/"
               >Try to play</a
@@ -50,10 +61,19 @@
             >
           </div>
         </div>
-        <!--Первый проект-->
-        <div>
-          <h3>Project 2: Portfolio</h3>
-          <p>Игра угадай число</p>
+        <!--Второй проект-->
+        <div class="project">
+          <img src="img/project1.png" alt="project1" />
+          <h3 style="color: white">GuessGame:</h3>
+          <p s>Try to Guess the number from 1 to 100</p>
+          <div class="links">
+            <a target="_blank" href="https://sexyywhyymde.github.io/guess-game/"
+              >Try to play</a
+            >
+            <a target="_blank" href="https://github.com/sexyywhyymde/guess-game"
+              >View on GitHub</a
+            >
+          </div>
         </div>
       </section>
       <!-- Секция скилс -->
